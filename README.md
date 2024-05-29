@@ -21,3 +21,9 @@ make
 The executable will be in ROOT/bin{ptree}
 
 You can run it by `./bin/ptree -p 1` `where -p 1 is the root process to start with`. See `./bin/ptree -h` for more information
+
+# TODO
+
+1. Add some comments
+2. Remove unessesery printing
+3. Add more usefull information about the process
