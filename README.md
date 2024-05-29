@@ -1,7 +1,7 @@
 # c-process-tree-view
 Simple C executable to print the Linux processes, read from /proc
 
-The program will read from `/proc{PID}/stat` and will display some basic information.
+The program will read from `/proc/{PID}/stat` and will display some basic information.
 
 Then all children processes will be listed below. The processes will be sorted first that does not have any child processes.
 
