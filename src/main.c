@@ -10,7 +10,7 @@ void print_help(void) {
     printf("ptree - Print running processes in a tree-view.\n");
     printf("Usage: ptree [-p N]\n");
     printf("Options:\n");
-    printf("\t-p N\troot process ID. Default is 1.");
+    printf("\t-p N\troot process ID. Default is 1.\n");
 }
 
 int main(int argc, char **argv) {
