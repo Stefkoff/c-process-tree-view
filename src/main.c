@@ -6,6 +6,7 @@
 #include <getopt.h>
 #include "../include/process.h"
 
+// print basic usage
 void print_help(void) {
     printf("ptree - Print running processes in a tree-view.\n");
     printf("Usage: ptree [-p N]\n");
@@ -14,6 +15,7 @@ void print_help(void) {
 }
 
 int main(int argc, char **argv) {
+    // default process ID is 1 (hopefully exisists)
     int pid = 1;
     int c;
 
@@ -31,6 +33,7 @@ int main(int argc, char **argv) {
         }
     }
 
+    // locale for the unicode characters
     setlocale(LC_CTYPE, "");
     struct PROCESS* p = load_tree(pid);
     sort_tree_by_children(p);

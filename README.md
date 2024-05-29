@@ -24,6 +24,6 @@ You can run it by `./bin/ptree -p 1` `where -p 1 is the root process to start wi
 
 # TODO
 
-1. Add some comments
+1. ~Add some comments~
 2. Remove unessesery printing
 3. Add more usefull information about the process
